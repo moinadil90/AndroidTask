@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_channel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@drawable/ripple_grey"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/text_healofy"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:textColor="@color/text_color"
+        android:layout_height="80dp">
+    </TextView>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".5"
+        android:background="#c8c7cc">
+    </View>
+
+</LinearLayout>

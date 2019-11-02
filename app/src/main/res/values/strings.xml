@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Healofy</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="footer_button_close">CLOSE</string>
+    <string name="text_healofy">Healofy</string>
+</resources>
